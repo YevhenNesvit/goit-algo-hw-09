@@ -24,5 +24,6 @@ def find_min_coins(amount):
     return coins_count
 
 
-print(find_coins_greedy(113))
-print(find_min_coins(113))
+if __name__ == "__main__":
+    print(find_coins_greedy(146))
+    print(find_min_coins(146))
